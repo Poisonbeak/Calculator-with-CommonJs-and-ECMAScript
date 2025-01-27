@@ -2,11 +2,11 @@ const prompt = require("prompt-sync")();
 
 function opInput(){
     console.log(`Choose operation:
-        + Sum
-        - Subtraction
-        * Multiplication
-        / Interger Division
-        `);
+    + Sum
+    - Subtraction
+    * Multiplication
+    / Interger Division
+    `);
     const operator = prompt();
     if (!['+', '-', '*', '/'].includes(operator)) {
         console.log("Wrong input!");
