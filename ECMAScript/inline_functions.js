@@ -5,7 +5,7 @@ const sub = (a, b) => a - b;
 const mult = (a, b) => a * b;
 const div = (a, b) => a / b;
 
-function calc(){
+export function calc(){
     const values = opInput(); // opInput() returns user choice in an array: [operator, operand1, operand2]
     const operator = values[0];
     const operand1 = values[1];
@@ -29,7 +29,5 @@ function calc(){
             break;
     }
 
-    console.log(`${operand1} ${operator} ${operand2} = ${res}`);
+    console.log(`${operand1} ${operator} ${operand2} = ${res}\n`);
 }
-
-module.exports.calc = calc;

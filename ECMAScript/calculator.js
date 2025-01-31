@@ -12,8 +12,7 @@ function menu(){
         2. Expression functions
         3. Arrow functions
         4. Inline functions
-        5. Quit
-        `);
+        5. Quit`);
         console.log();    
         let choice = prompt();
     

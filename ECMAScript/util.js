@@ -1,7 +1,7 @@
 import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 
-function opInput(){
+export function opInput(){
     console.log(`Choose operation:
     + Sum
     - Subtraction
